@@ -476,12 +476,12 @@ const wishes = [
 ];
 
 const playlist = [
-  { title: "From The Start", artist: "Laufey", file: "https://fine.sunproxy.net/file/NE9wa0RHanpad1pUT01jZlhBSTRhVTBVbks1L25lSStXeVVFYzFueURXOEtqK0NZT1RjYkdjbmExYWM0Rm15NzZoNEJuRXZ2L1RERjNjZTRZMkxWbEZ1NTk3aU4vdUJwUlN4UzM0RzlOc3c9/Laufey_-_From_The_Start_(SkySound.cc).mp3" },
-  { title: "Die With A Smile", artist: "Bruno Mars & Lady Gaga", file: "https://dl2.mp3party.net/online/11134769.mp3" },
-  { title: "Understand", artist: "Keshi", file: "https://dl2.mp3party.net/online/10967803.mp3" },
-  { title: "Love", artist: "Wave to Earth", file: "https://fine.sunproxy.net/file/NE9wa0RHanpad1pUT01jZlhBSTRhVTBVbks1L25lSStXeVVFYzFueURXLzdOWFN4MkYwU3BhNGd5UFFnLy9xZUcrR3hZUGVUNnljMDFZWkVpYUt3M2EvODFHanZIdHlINnNnckVIb014OXM9/wave_to_earth_-_love._(SkySound.cc).mp3" },
-  { title: "Seasons", artist: "Wave to Earth", file: "https://fine.sunproxy.net/file/NE9wa0RHanpad1pUT01jZlhBSTRhVTBVbks1L25lSStXeVVFYzFueURXL0cyMEtQZjJBbTRQeXErVm05TFBYaGg3bEVIajBEaHNITDlEZndpbVM2Q3g0UFVCZ3E4UnBSU0tZVGdGQS9GR1k9/Wave_to_Earth_-_Seasons_(SkySound.cc).mp3" },
-  { title: "Seni Oilai", artist: "Sadraddin", file: "https://newmp3.kz/get/file/45590.mp3" },
+  { title: "From The Start", artist: "Laufey", file: "music/From The Start.mp3" },
+  { title: "Die With A Smile", artist: "Bruno Mars & Lady Gaga", file: "music/Die With A Smile.mp3" },
+  { title: "Understand", artist: "Keshi", file: "music/Understand.mp3" },
+  { title: "Love", artist: "Wave to Earth", file: "music/Love.mp3" },
+  { title: "Seasons", artist: "Wave to Earth", file: "music/Seasons.mp3" },
+  { title: "Seni Oilai", artist: "Sadraddin", file: "music/Seni Oilai.mp3" },
   { title: "Zharygym", artist: "Sadraddin", file: "music/Zharygym.mp3" },
   { title: "Zhalgyz Zhuldyz", artist: "Zhasulan Kopbergen", file: "music/Zhalgyz Zhuldyz.mp3" }
 ];
