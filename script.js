@@ -476,7 +476,7 @@ const wishes = [
 ];
 
 const playlist = [
-  { title: "From The Start", artist: "Laufey", file: "music/From The Start.mp3" },
+  { title: "From The Start", artist: "Laufey", file: "https://fine.sunproxy.net/file/NE9wa0RHanpad1pUT01jZlhBSTRhVTBVbks1L25lSStXeVVFYzFueURXOEtqK0NZT1RjYkdjbmExYWM0Rm15NzZoNEJuRXZ2L1RERjNjZTRZMkxWbEZ1NTk3aU4vdUJwUlN4UzM0RzlOc3c9/Laufey_-_From_The_Start_(SkySound.cc).mp3" },
   { title: "Die With A Smile", artist: "Bruno Mars & Lady Gaga", file: "music/Die With A Smile.mp3" },
   { title: "Understand", artist: "Keshi", file: "music/Understand.mp3" },
   { title: "Love", artist: "Wave to Earth", file: "music/Love.mp3" },
