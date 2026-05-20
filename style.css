@@ -343,4 +343,54 @@ button.play {
   .player__content {
     width: 100%;
   }
+
+  .countdown-card .card-label {
+    margin: 0 0 20px;
+  }
+
+  .countdown-card .date-note {
+    margin: 20px 0 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .page {
+    width: min(100% - 20px, 1120px);
+    padding: 24px 0 48px;
+  }
+
+  .hero__text {
+    min-height: 440px;
+    padding: 24px;
+    border-radius: 28px;
+  }
+
+  .countdown-card,
+  .wish-card,
+  .player {
+    border-radius: 28px;
+  }
+
+  .countdown {
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+  }
+
+  .countdown div {
+    min-height: 105px;
+    padding: 14px;
+  }
+
+  .countdown strong {
+    font-size: 44px;
+  }
+
+  .vinyl {
+    width: 190px;
+    height: 190px;
+  }
+
+  .progress-wrap {
+    grid-template-columns: 38px 1fr 38px;
+  }
 }
