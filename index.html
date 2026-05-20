@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>До нашей встречи</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="grain"></div>
+
+  <main class="page">
+    <section class="hero">
+      <div class="hero__text">
+        <p class="eyebrow">for my favorite person</p>
+        <h1>Пока ты в Америке, я считаю дни до нашей встречи :)</h1>
+        <p class="subtitle">
+          Каждый день здесь будет маленькое тёплое письмо для тебя.
+          Чтобы ты помнила, что ты не одна, я рядом сердцем.
+        </p>
+      </div>
+
+      <div class="countdown-card">
+        <p class="card-label">До возвращения в Казахстан</p>
+        <div class="countdown" id="countdown">
+          <div><strong id="days">0</strong><span>дней</span></div>
+          <div><strong id="hours">0</strong><span>часов</span></div>
+          <div><strong id="minutes">0</strong><span>минут</span></div>
+          <div><strong id="seconds">0</strong><span>секунд</span></div>
+        </div>
+        <p class="date-note">12 сентября 2026</p>
+      </div>
+    </section>
+
+    <section class="wish-section">
+      <div class="wish-card">
+        <div class="wish-image-wrap">
+          <img id="wishImage" src="images/we.png" />
+        </div>
+        <div class="wish-content">
+          <p class="eyebrow">слова на сегодня</p>
+          <h2 id="wishTitle">Моя любимая</h2>
+          <p id="wishText"></p>
+        </div>
+      </div>
+    </section>
+
+    <section class="player-section">
+      <div class="player">
+        <div class="vinyl">
+          <div class="vinyl__circle"></div>
+        </div>
+
+        <div class="player__content">
+          <p class="eyebrow">our songs</p>
+          <h2 id="trackTitle">Выбери песню</h2>
+
+          <audio id="audio"></audio>
+
+          <div class="progress-wrap">
+            <span id="currentTime">0:00</span>
+            <input id="progress" type="range" min="0" max="100" value="0" />
+            <span id="duration">0:00</span>
+          </div>
+
+          <div class="controls">
+            <button id="prevBtn" aria-label="Previous">⟵</button>
+            <button id="playBtn" class="play" aria-label="Play">▶</button>
+            <button id="nextBtn" aria-label="Next">⟶</button>
+          </div>
+
+          <div class="playlist" id="playlist"></div>
+          <p class="small-note">
+            Это наш плейлист, и он будет пополняться новыми песнями, которые будут напоминать нам о нас.
+          </p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
